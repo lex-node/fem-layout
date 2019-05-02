@@ -18,7 +18,7 @@ a {
 	color: #2772B0;
 }
 .wrapper {
-	width: 97%;
+	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	float: none;
@@ -32,6 +32,44 @@ div img {
 
 /* grid system -- mobile first! */
 
+.row{
+	display: inline-block;
+}
+
+.row-element{
+	float: left;
+	margin-left: 4%;
+	width: 21%;
+	background: deeppink;
+}
+
+.double-row-element{
+	float: left;
+	margin-left: 4%;
+	width: 46%;
+	background: deepskyblue;
+}
+
+.half-row-element{
+	float: left;
+	margin-left: 4%;
+	width: 21%;
+	background: chartreuse;
+}
+
+.triple-row-element{
+	float: left;
+	margin-left: 4%;
+	width: 71%;
+	background: blue;
+}
+
+.quadruple-row-element{
+	float: left;
+	margin-left: 4%;
+	width: 1200px;
+	background: darkred;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
